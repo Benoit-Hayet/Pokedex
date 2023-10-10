@@ -1,7 +1,7 @@
 import React from 'react';
 
 function PokemonCard(){
-  const pokemon = pokemonList[1]
+  const pokemon = pokemonList[0]
 
   return (
     pokemon.imgSrc ? (<figure>
