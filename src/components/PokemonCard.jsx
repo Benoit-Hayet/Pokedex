@@ -1,6 +1,6 @@
 import React from 'react';
 
-function PokemonCard()(props){
+function PokemonCard(){
   const pokemon = pokemonList[1]
 
   return (
@@ -12,7 +12,6 @@ function PokemonCard()(props){
   </figure>)
   );
 }
-console.log(props)
 
 export default PokemonCard;
 
