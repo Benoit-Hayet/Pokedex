@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function PokemonCard(props) {
-  const pokemon = props.pokemon[0];
+  const pokemon = props.pokemon;
 
   if (!pokemon) {
     return <div>No Info</div>;
